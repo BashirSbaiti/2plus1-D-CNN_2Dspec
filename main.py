@@ -3,8 +3,8 @@ import pickle as pkl
 import numpy as np
 import torch
 from sklearn.metrics import f1_score
-from repo_CNN_models import CNN2plus1Le, CNN3dLe
-from repo_CAM import generateCAMoverlay
+from CNN_models import CNN2plus1Le, CNN3dLe
+from CAM import generateCAMoverlay
 
 datasetFile = "Mini_database/dataset.pkl"
 
